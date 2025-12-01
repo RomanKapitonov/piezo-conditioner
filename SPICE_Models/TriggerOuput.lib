@@ -1,0 +1,31 @@
+ * Piezoelectric sensor response for SPICE
+* Usage: Place this voltage source in your circuit
+* V1 node1 node2 VALUE={V0 * exp(-alpha * (time - td)) * sin(omega * sqrt(1-zeta^2) * (time - td)) * (time > td)}
+* Where:
+*   V0 = peak voltage (e.g., 1V)
+*   alpha = damping * omega
+*   omega = 2 * pi * f
+*   f = resonant frequency (e.g., 1000 Hz)
+*   zeta = damping ratio (e.g., 0.1)
+*   td = time delay before response starts
+
+* Example SPICE netlist:
+.param V0=1
+.param f=1000
+.param zeta=0.1
+.param omega=2*pi*f
+.param alpha=zeta*omega
+.param td=1m
+
+* Voltage source with piezo response
+V1 out 0 VALUE={V0 * exp(-alpha * (time - td)) *
++    sin(omega * sqrt(1-zeta^2) * (time - td)) *
++    (time > td)}
+
+* Load resistor
+R1 out 0 10k
+
+* Analysis commands
+.tran 0.01m 10m   ; 10ms simulation with 0.01ms step
+.probe v(out)
+.end

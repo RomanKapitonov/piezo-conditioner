@@ -1,0 +1,152 @@
+***********************************************************
+*
+* BC847BPN
+*
+* Nexperia
+*
+* General purpose double NPN/PNP Transistor
+* IC   = 100 mA
+* VCEO = 45 V 
+* hFE  = 200 - 450 @ 5V/2mA
+* 
+*
+*
+*
+* Package pinning does not match Spice model pinning.
+* Package: SOT 363
+* 
+* Package Pin 1;4: Emitter     TR1;TR2  
+* Package Pin 2;5: Base        TR1;TR2
+* Package Pin 3;6: Collector   TR2;TR1
+* 
+* 
+* Extraction date (week/year): 27/2022(TR1) / 14/2020 (TR2)
+* Spicemodel includes temperature dependency
+*
+**********************************************************
+*#
+* Please note: Diode D1, Transistor Q2 and resistor RQ
+* are dedicated to improve modeling of quasi
+* saturation area and reverse mode operation
+* and do not reflect physical devices.
+*
+.SUBCKT BC847BPN_NPN 1 2 3
+Q1 1 2 3 MAIN 0.9699
+Q2 11 2 3 MAIN 0.03006
+RQ 11 1 439.6
+D1 2 1 DIODE
+*
+.MODEL MAIN NPN
++ IS = 1.01E-14
++ NF = 0.9819
++ ISE = 2.735E-17
++ NE = 1.158
++ BF = 270
++ IKF = 0.03062
++ VAF = 15.18
++ NR = 0.9831
++ ISC = 2.622E-17
++ NC = 1.227
++ BR = 7.71
++ IKR = 0.03105
++ VAR = 17.89
++ RB = 76
++ IRB = 0.00015
++ RBM = 1.143
++ RE = 0.4442
++ RC = 0.4102
++ XTB = 0.7604
++ EG = 1.11
++ XTI = 0
++ CJE = 1.331E-11
++ VJE = 0.6595
++ MJE = 0.338
++ TF = 5E-10
++ XTF = 20
++ VTF = 2.949
++ ITF = 0.2391
++ PTF = 0
++ CJC = 3.92E-12
++ VJC = 0.4551
++ MJC = 0.3
++ XCJC = 1
++ TR = 1E-07
++ CJS = 0
++ VJS = 0.75
++ MJS = 0.333
++ FC = 0.78
+.MODEL DIODE D
++ IS = 1.647E-15
++ N = 0.9889
++ BV = 1000
++ IBV = 0.001
++ RS = 1993
++ CJO = 0
++ VJ = 1
++ M = 0.5
++ FC = 0
++ TT = 0
++ EG = 1.11
++ XTI = 3
+.ENDS
+*
+.SUBCKT BC847BPN_PNP 1 2 3
+Q1 1 2 3 MAIN 0.9404
+Q2 11 2 3 MAIN 0.05956
+RQ 11 1 287.6
+D1 1 2 DIODE
+*
+.MODEL MAIN PNP
++ IS = 1.799E-014
++ NF = 1.022
++ ISE = 1.679E-015
++ NE = 1.407
++ BF = 305.1
++ IKF = 0.1058
++ VAF = 29.33
++ NR = 1.018
++ ISC = 3.907E-015
++ NC = 1.323
++ BR = 9.633
++ IKR = 0.04361
++ VAR = 15.48
++ RB = 225
++ IRB = 3.5E-005
++ RBM = 0.58
++ RE = 0.4884
++ RC = 0.3001
++ XTB = 1.52
++ EG = 1.11
++ XTI = 11.42
++ CJE = 1.169E-011
++ VJE = 0.636
++ MJE = 0.3558
++ TF = 8.145E-010
++ XTF = 2.568
++ VTF = 5
++ ITF = 0.08275
++ PTF = 0
++ CJC = 6.022E-012
++ VJC = 0.623
++ MJC = 0.4213
++ XCJC = 1
++ TR = 1.2E-007
++ CJS = 0
++ VJS = 0.75
++ MJS = 0.333
++ FC = 0.7148
+.MODEL DIODE D
++ IS = 1.012E-016
++ N = 0.9929
++ BV = 1000
++ IBV = 0.001
++ RS = 3.939E+004
++ CJO = 0
++ VJ = 1
++ M = 0.5
++ FC = 0
++ TT = 0
++ EG = 1.11
++ XTI = 3
+.ENDS
+*

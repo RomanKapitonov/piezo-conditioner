@@ -1,0 +1,25 @@
+********************************************************************************
+* HEX_SN74HC14.cir
+* 1.0
+* Complete package model for SN74HC14 hex Schmitt trigger inverter
+* References original TI model file
+********************************************************************************
+
+* Include the original model file
+.INCLUDE E:\dev\LEDSimulatorV2\drum_trigger\drum_trigger\SPICE_Models\SN74HC14.cir
+
+* Main subcircuit for the complete SN74HC14 with 6 triggers
+.SUBCKT HEX_SN74HC14 1A 1Y 2A 2Y 3A 3Y GND 4Y 4A 5Y 5A 6Y 6A VCC
+* Individual Schmitt trigger instances
+X1 1Y 1A VCC GND SN74HC14
+X2 2Y 2A VCC GND SN74HC14
+X3 3Y 3A VCC GND SN74HC14
+X4 4Y 4A VCC GND SN74HC14
+X5 5Y 5A VCC GND SN74HC14
+X6 6Y 6A VCC GND SN74HC14
+.ENDS
+
+********************************************************************************
+* Example usage:
+* X1 in1 out1 in2 out2 in3 out3 in4 out4 in5 out5 in6 out6 vdd gnd HEX_SN74HC14
+*********************************************************

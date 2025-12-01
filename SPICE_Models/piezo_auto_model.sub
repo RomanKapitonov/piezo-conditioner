@@ -1,0 +1,15 @@
+
+.SUBCKT CUSTOM_PIEZO out gnd
+
+* Generated Automated Model
+* Dual-Component Damped Sine Approximation
+* Component 1: F=230.8Hz, Decay=147.9
+* Component 2: F=440.2Hz, Decay=200.1
+
+E1 out gnd VALUE={
++ 15.23620 * exp(-147.89711 * time) * sin(6.283185 * 230.81039 * time + 2.31101) 
++ + 
++ -15.23616 * exp(-200.07252 * time) * sin(6.283185 * 440.15388 * time + 1.66336)
++ }
+
+.ENDS CUSTOM_PIEZO

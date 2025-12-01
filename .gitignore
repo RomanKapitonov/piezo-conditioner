@@ -1,0 +1,92 @@
+# KiCad Project .gitignore
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+*-cache.lib
+*-rescue.lib
+*-rescue.dcm
+*.net
+
+# Netlist files (often auto-generated)
+*.xml
+
+# Autorouter files (export)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.csv
+*.tsv
+*.xml
+
+# Gerber and drill files (usually regenerated)
+*-gerbers/
+*.gbr
+*.gbrjob
+*.drl
+*.svg
+*.pdf
+*.ps
+*.plt
+*.drill
+
+# Position files
+*-top-pos.csv
+*-bottom-pos.csv
+*-all-pos.csv
+*.pos
+
+# Fabrication outputs
+fabrication/
+gerbers/
+production/
+
+# 3D model cache
+*.wrl.cache/
+*.step.cache/
+
+# Python bytecode (if using Python scripts with KiCad)
+*.pyc
+__pycache__/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Backup directory
+backup/
+backups/
+power_supply-backups/
+
+# KiCad auto-save recovery files
+\#auto_saved_files\#
+
+# User-specific settings
+*.kicad_prl
+
+# Log files
+*.log
+
+# Lock files
+*.lck
+*.LCK

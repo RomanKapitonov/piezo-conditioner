@@ -1,0 +1,6 @@
+.SUBCKT WAV_SRC OUT GND PARAMS: FILENAME=pd120_single_hits.wav CHANNEL=0
+* This subcircuit defines a voltage source V1 which reads a WAV file.
+* The parameter substitution feature is used for reusability.
+* Note: The 'SINE' is a required placeholder and is ignored by the 'wavefile' command.
+V1 OUT GND SINE(0 1 1k) wavefile={FILENAME} chan={CHANNEL}
+.ENDS WAV_SRC

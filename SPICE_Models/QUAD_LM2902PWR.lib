@@ -1,0 +1,24 @@
+********************************************************************************
+* QUAD_LM2902PWR.cir
+* 1.0
+* Complete package model for LM2902PWR quad op amp
+* References original TI model file
+********************************************************************************
+
+* Include the original model file
+.INCLUDE E:\dev\LEDSimulatorV2\drum_trigger\drum_trigger\SPICE_Models\LM2902PWR.lib
+
+* Main subcircuit for the complete LM2902PWR with 4 amps
+.SUBCKT QUAD_LM2902PWR OUT1 -IN1 +IN1 VCC +IN2 -IN2 OUT2 OUT3 -IN3 +IN3 VEE +IN4 -IN4 OUT4
+* Individual Schmitt trigger instances
+X1 +IN1 -IN1 VCC VEE OUT1 LMX24_LM2902
+X2 +IN2 -IN2 VCC VEE OUT2 LMX24_LM2902
+X3 +IN3 -IN3 VCC VEE OUT3 LMX24_LM2902
+X4 +IN4 -IN2 VCC VEE OUT4 LMX24_LM2902
+
+.ENDS
+
+********************************************************************************
+* Example usage:
+* X1 in1 out1 in2 out2 in3 out3 in4 out4 in5 out5 in6 out6 vdd gnd QUAD_LM2902PWR
+*********************************************************

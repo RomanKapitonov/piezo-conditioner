@@ -1,0 +1,13 @@
+* Multiple Piezoelectric Sensor Response Library
+* Generated: 2025-11-09 14:27:49
+* Dynamic multi-signal configuration
+
+.SUBCKT MULTI_PIEZO out gnd
+
+* Combined response of multiple events
+E1 out gnd VALUE={
++ 50.0 * exp(-3769.91118431 * (time - 0.000000)) * sin(18849.55592154 * 0.97979590 * (time - 0.000000)) * ((time - 0.000000) > 0)+
++ 40.0 * exp(-3769.91118431 * (time - 0.002000)) * sin(18849.55592154 * 0.97979590 * (time - 0.002000)) * ((time - 0.002000) > 0)
++ }
+
+.ENDS MULTI_PIEZO
