@@ -461,6 +461,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Opamp_Quad"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1850,6 +2033,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 68.58) (xy 226.06 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1395bdc3-2290-469d-be96-5fb59f5cbc73")
+	)
+	(wire
+		(pts
 			(xy 92.71 101.6) (xy 104.14 101.6)
 		)
 		(stroke
@@ -2700,7 +2893,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 68.58) (xy 226.06 68.58)
+			(xy 213.36 68.58) (xy 218.44 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2787,6 +2980,16 @@
 			(type default)
 		)
 		(uuid "aaeac901-8a6e-460a-b7dd-628a3888e8c0")
+	)
+	(wire
+		(pts
+			(xy 109.22 238.76) (xy 109.22 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab755eaa-cdf0-4650-96d9-3f6ec3a7d472")
 	)
 	(wire
 		(pts
@@ -2887,6 +3090,16 @@
 			(type default)
 		)
 		(uuid "c712e7a2-9023-444c-ad12-f628a1637802")
+	)
+	(wire
+		(pts
+			(xy 109.22 248.92) (xy 109.22 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7fa5ca5-b8fb-4cf5-b130-4d60f69aeb0d")
 	)
 	(wire
 		(pts
@@ -3150,6 +3363,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 260.35) (xy 109.22 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3505c60-523d-473d-b221-e1f3d4048174")
+	)
+	(wire
+		(pts
 			(xy 135.89 212.09) (xy 135.89 204.47)
 		)
 		(stroke
@@ -3375,6 +3598,17 @@
 		)
 		(uuid "c9cdf1d9-44ce-4561-9ea3-8c62b3854021")
 	)
+	(hierarchical_label "+9VIN"
+		(shape input)
+		(at 109.22 238.76 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d90cb4f1-69f5-4dc1-99f1-e77226ba5971")
+	)
 	(hierarchical_label "TRIG_A_OUT"
 		(shape output)
 		(at 321.31 106.68 0)
@@ -3521,7 +3755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0402_custom:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 106.68 88.9 0)
 			(effects
 				(font
@@ -3585,6 +3819,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 106.68 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C23231"
 			(at 106.68 88.9 90)
 			(effects
 				(font
@@ -3727,6 +3970,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C2500"
+			(at 193.04 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e1bc863-28bb-4946-b365-287f6a1b814d")
 		)
@@ -3837,6 +4089,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 130.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C11702"
 			(at 130.81 80.01 0)
 			(effects
 				(font
@@ -3970,6 +4231,15 @@
 			)
 		)
 		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C2500"
 			(at 130.81 93.98 0)
 			(effects
 				(font
@@ -4160,6 +4430,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C15849"
+			(at 151.13 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f5859d6b-6ad9-4d5b-846e-fe2e590a1df0")
 		)
@@ -4200,7 +4479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0402_custom:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 106.68 54.61 0)
 			(effects
 				(font
@@ -4272,6 +4551,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C23231"
+			(at 106.68 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b7321b92-e50b-4a58-b843-6b12e4299dbb")
 		)
@@ -4292,7 +4580,7 @@
 		(at 321.31 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4359,9 +4647,9 @@
 		(at 316.23 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2d1bb855-df9c-4fb0-aa07-cb2a139d18f8")
 		(property "Reference" "J10"
@@ -4399,6 +4687,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 316.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" ""
 			(at 316.23 69.85 0)
 			(effects
 				(font
@@ -4522,6 +4819,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C25768"
+			(at 168.91 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9fe95ade-c785-45b0-a6c6-43560770efeb")
 		)
@@ -4543,9 +4849,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "32184c0a-1944-4c07-bdf1-905af329359f")
 		(property "Reference" "J7"
 			(at 67.945 201.93 0)
@@ -4653,6 +4959,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" ""
+			(at 68.58 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "T"
 			(uuid "9ce882cd-6ec9-4afd-a0fb-339720fe7fad")
 		)
@@ -4739,9 +5054,9 @@
 		(at 316.23 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "324d517f-ece4-4df0-a459-524d9ea940b5")
 		(property "Reference" "J4"
@@ -4806,6 +5121,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 316.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" ""
 			(at 316.23 93.98 0)
 			(effects
 				(font
@@ -4929,6 +5253,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C25768"
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f9909722-9251-4f65-b951-e124bf5dee16")
 		)
@@ -4939,6 +5272,128 @@
 			(project "drum_trigger"
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627/c33731bb-ebb6-48f6-bc8e-befa4f190ea2"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 220.98 68.58 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3790bc08-6c7c-4f31-917d-ca82e58ff062")
+		(property "Reference" "R60"
+			(at 220.98 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 220.98 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "R_0402_custom:R_0402_1005Metric"
+			(at 220.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 220.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Board" "Trigger Board"
+			(at 220.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 220.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 220.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 220.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 220.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C25076"
+			(at 220.98 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dc06baff-676f-447c-84e1-34debb354354")
+		)
+		(pin "1"
+			(uuid "b01e830c-f09f-4693-b966-d519cd466884")
+		)
+		(instances
+			(project "drum_trigger"
+				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627/c33731bb-ebb6-48f6-bc8e-befa4f190ea2"
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -5042,6 +5497,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C25768"
+			(at 157.48 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c249c01b-79b3-4841-b5c1-c43c36a41c5c")
 		)
@@ -5052,6 +5516,72 @@
 			(project "drum_trigger"
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627/c33731bb-ebb6-48f6-bc8e-befa4f190ea2"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d06ee8a-b8cd-445c-b5d6-18a43da20507")
+		(property "Reference" "#PWR072"
+			(at 109.22 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50df18c4-e7ea-485b-959c-c25a73cb6b75")
+		)
+		(instances
+			(project "drum_trigger"
+				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627/c33731bb-ebb6-48f6-bc8e-befa4f190ea2"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -5221,6 +5751,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C25768"
+			(at 181.61 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7bb677ba-686f-4168-8b91-530ef409c82c")
 		)
@@ -5334,6 +5873,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C1555"
+			(at 181.61 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "837633c5-4b5f-47f0-9d7f-b50d4c3e9b77")
 		)
@@ -5354,9 +5902,9 @@
 		(at 316.23 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4d7082db-7215-4f9c-a4da-527f1dc9c809")
 		(property "Reference" "J5"
@@ -5421,6 +5969,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 316.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" ""
 			(at 316.23 106.68 0)
 			(effects
 				(font
@@ -5541,6 +6098,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C1555"
+			(at 125.73 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "155b34bd-973b-4137-8767-ba264b901b46")
 		)
@@ -5648,6 +6214,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 213.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C21120"
 			(at 213.36 74.93 0)
 			(effects
 				(font
@@ -5804,6 +6379,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 109.22 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c508675-1c7d-4220-92df-57f0202e5777")
+		(property "Reference" "R59"
+			(at 107.95 242.062 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 106.68 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 109.22 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Board" "Trigger Board"
+			(at 109.22 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 109.22 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 109.22 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 109.22 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 109.22 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C22843"
+			(at 109.22 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d72a44a8-16ed-4b99-bfa4-3c8c01e150b9")
+		)
+		(pin "1"
+			(uuid "349cfcfc-6206-41eb-8f75-6fa0c34124cd")
+		)
+		(instances
+			(project "drum_trigger"
+				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627/c33731bb-ebb6-48f6-bc8e-befa4f190ea2"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 205.74 172.72 180)
 		(unit 1)
@@ -5895,6 +6591,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 205.74 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C21120"
 			(at 205.74 172.72 0)
 			(effects
 				(font
@@ -6061,6 +6766,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C71035"
+			(at 184.15 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "b5e1b5cb-703b-4fb7-9e6f-810f4f193efb")
 		)
@@ -6117,9 +6831,9 @@
 		(at 316.23 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "69cb0071-44b2-4512-9e43-8574b7b2a05d")
 		(property "Reference" "J11"
@@ -6157,6 +6871,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 316.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" ""
 			(at 316.23 81.28 0)
 			(effects
 				(font
@@ -6270,6 +6993,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 157.48 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C25768"
 			(at 157.48 93.98 90)
 			(effects
 				(font
@@ -6428,6 +7160,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 134.62 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C71035"
 			(at 134.62 186.69 0)
 			(effects
 				(font
@@ -6630,6 +7371,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C71035"
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "53427709-1a3a-43c9-8bd5-3c3b19bca358")
 		)
@@ -6824,6 +7574,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C71035"
+			(at 185.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "53427709-1a3a-43c9-8bd5-3c3b19bca359")
 		)
@@ -6975,6 +7734,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C11702"
+			(at 147.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "21dc1fe9-2f94-4ea0-b923-2be20c4bf1d7")
 		)
@@ -7045,6 +7813,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" ""
+			(at 323.85 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd55d057-f59c-467f-8c3c-ad8dad9b3492")
 		)
@@ -7104,6 +7881,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 323.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" ""
 			(at 323.85 135.89 0)
 			(effects
 				(font
@@ -7290,6 +8076,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C25803"
+			(at 101.6 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6f416ae0-8cab-4ec3-bdeb-a4faa422ed97")
 		)
@@ -7352,6 +8147,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 323.85 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" ""
 			(at 323.85 151.13 0)
 			(effects
 				(font
@@ -7508,6 +8312,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 142.24 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C71035"
 			(at 142.24 247.65 0)
 			(effects
 				(font
@@ -7730,6 +8543,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C1555"
+			(at 125.73 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7a18df1-b6b7-49dd-9df4-c741f3ea452d")
 		)
@@ -7908,6 +8730,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C1555"
+			(at 106.68 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70024ee3-3eba-4ff2-b314-f59c46b0da93")
 		)
@@ -7942,7 +8773,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "100"
 			(at 228.6 76.1999 0)
 			(effects
 				(font
@@ -8023,6 +8854,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C25076"
+			(at 226.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "15ebb226-7fe9-4e13-b160-8d3e910c4d86")
 		)
@@ -8063,7 +8903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0402_custom:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 167.64 0)
 			(effects
 				(font
@@ -8127,6 +8967,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 125.73 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C23231"
 			(at 125.73 167.64 90)
 			(effects
 				(font
@@ -8306,6 +9155,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 180.34 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C1555"
 			(at 180.34 80.01 90)
 			(effects
 				(font
@@ -8494,6 +9352,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C25768"
+			(at 191.77 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7507ddb1-652b-4433-9584-888f018954d3")
 		)
@@ -8504,6 +9371,94 @@
 			(project "drum_trigger"
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627/c33731bb-ebb6-48f6-bc8e-befa4f190ea2"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 109.22 254 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "987d3a73-2cec-4fef-979e-410419dc920c")
+		(property "Reference" "D7"
+			(at 113.03 254.3174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 113.03 256.8574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 109.22 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 109.22 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 109.22 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C2297"
+			(at 109.22 254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cd890c9-6964-40bf-91a3-a2eb5fcb2d22")
+		)
+		(pin "2"
+			(uuid "74f1aee9-26af-4c21-8e93-d11e44d43fdc")
+		)
+		(instances
+			(project ""
+				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627/c33731bb-ebb6-48f6-bc8e-befa4f190ea2"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -8675,6 +9630,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C14858"
+			(at 64.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf8655c8-76e9-4c4b-b80e-37b55b7623c4")
 		)
@@ -8761,7 +9725,7 @@
 		(at 321.31 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8942,6 +9906,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C2500"
+			(at 106.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e1bc863-28bb-4946-b365-287f6a1b814d")
 		)
@@ -9081,6 +10054,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" ""
+			(at 323.85 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd55d057-f59c-467f-8c3c-ad8dad9b3492")
 		)
@@ -9182,6 +10164,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 125.73 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C25744"
 			(at 125.73 212.09 90)
 			(effects
 				(font
@@ -9302,6 +10293,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C25744"
+			(at 120.65 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c8862f73-66eb-463c-b07f-ca68e6815328")
 		)
@@ -9406,6 +10406,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 161.29 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C25768"
 			(at 161.29 176.53 90)
 			(effects
 				(font
@@ -9519,6 +10528,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 151.13 261.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C15849"
 			(at 151.13 261.62 90)
 			(effects
 				(font
@@ -9708,6 +10726,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C11702"
+			(at 153.67 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "63d6afee-6dcc-4284-b191-3920e2185b85")
 		)
@@ -9813,6 +10840,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 72.39 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C21120"
 			(at 72.39 101.6 90)
 			(effects
 				(font
@@ -9928,6 +10964,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 87.63 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C14858"
 			(at 87.63 189.23 0)
 			(effects
 				(font
@@ -10114,6 +11159,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C25744"
+			(at 125.73 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "99ca9fb4-058d-480e-9183-9ca59860dfae")
 		)
@@ -10177,6 +11231,15 @@
 		)
 		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
 			(at 153.67 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C2500"
+			(at 153.67 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10366,6 +11429,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C25768"
+			(at 161.29 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9d786df1-2f3d-45c6-a2c9-1febaeffa651")
 		)
@@ -10473,6 +11545,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 153.67 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C11702"
 			(at 153.67 200.66 0)
 			(effects
 				(font
@@ -10594,6 +11675,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C1555"
+			(at 106.68 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61f5bf81-1df9-44ee-ba50-b03f170b760a")
 		)
@@ -10654,6 +11744,15 @@
 			)
 		)
 		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C2500"
 			(at 195.58 68.58 0)
 			(effects
 				(font
@@ -10780,6 +11879,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C1588"
+			(at 234.95 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "745d1680-d0ec-462d-8001-16e7832faf0f")
 		)
@@ -10843,6 +11951,15 @@
 		)
 		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
 			(at 111.76 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C2500"
+			(at 111.76 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10959,7 +12076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0402_custom:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 204.47 0)
 			(effects
 				(font
@@ -11023,6 +12140,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 125.73 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C23231"
 			(at 125.73 204.47 90)
 			(effects
 				(font
@@ -11135,6 +12261,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 106.68 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C25744"
 			(at 106.68 62.23 90)
 			(effects
 				(font
@@ -11258,6 +12393,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C25803"
+			(at 78.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7aa48118-0fde-4a23-a6a7-cc37e787d7ae")
 		)
@@ -11363,6 +12507,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 95.25 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C21120"
 			(at 95.25 184.15 90)
 			(effects
 				(font
@@ -11484,6 +12637,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" "C25803"
+			(at 83.82 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ddcd896f-6a04-4d2f-b67d-f81eec0dbd87")
 		)
@@ -11505,9 +12667,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f7d9a065-291f-4eee-b8c2-4984e4784533")
 		(property "Reference" "J6"
 			(at 45.085 123.19 0)
@@ -11607,6 +12769,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" ""
 			(at 45.72 114.3 0)
 			(effects
 				(font
@@ -11720,6 +12891,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 106.68 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" "C25803"
 			(at 106.68 184.15 90)
 			(effects
 				(font

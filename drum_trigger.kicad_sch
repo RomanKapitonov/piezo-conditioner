@@ -2227,6 +2227,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" ""
+			(at 74.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c9fbd94-f3cc-4d30-b192-77df171d05ce")
 		)
@@ -2768,6 +2777,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" ""
+			(at 92.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "08b742e6-b1e0-4638-a9f5-a1c9c4889397")
 		)
@@ -2789,7 +2807,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3055,7 +3073,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(uuid "9912d875-1bf5-4c44-9011-c21480808281")
@@ -3123,6 +3141,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 31.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" ""
 			(at 31.75 45.72 0)
 			(effects
 				(font
@@ -3306,7 +3333,7 @@
 		(at 34.29 97.79 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(uuid "a7fa1b00-069c-4a32-a5fa-60c5af09e510")
@@ -3374,6 +3401,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LTSC" ""
 			(at 34.29 97.79 0)
 			(effects
 				(font
@@ -3616,6 +3652,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" ""
+			(at 74.93 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57c72978-7b7b-4aac-ac75-21ed20091278")
 		)
@@ -3636,7 +3681,7 @@
 		(at 67.31 97.79 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(uuid "f2624ca5-62e8-4eeb-bfd6-fd8e575bd814")
@@ -3712,6 +3757,15 @@
 				(hide yes)
 			)
 		)
+		(property "LTSC" ""
+			(at 67.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "b08a6e4a-87dd-4782-9293-4959e838a78d")
 		)
@@ -3752,10 +3806,10 @@
 		)
 	)
 	(sheet
-		(at 132.08 60.96)
+		(at 245.11 119.38)
 		(size 34.29 19.05)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -3768,7 +3822,7 @@
 		)
 		(uuid "6a770099-5aed-4d46-ad6f-7745ea9500cd")
 		(property "Sheetname" "TriggerPairLM324"
-			(at 132.08 60.2484 0)
+			(at 245.11 118.6684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,7 +3831,7 @@
 			)
 		)
 		(property "Sheetfile" "trigger_pair_lm324.kicad_sch"
-			(at 132.08 80.5946 0)
+			(at 245.11 139.0146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
