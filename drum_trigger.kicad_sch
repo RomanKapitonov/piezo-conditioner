@@ -2200,6 +2200,33 @@
 				(hide yes)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 74.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 74.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 74.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c9fbd94-f3cc-4d30-b192-77df171d05ce")
 		)
@@ -2226,7 +2253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13504a5f-7d3e-4b3a-bc1c-36d9abde3b5d")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 71.12 78.74 0)
 			(effects
 				(font
@@ -2276,7 +2303,7 @@
 		(instances
 			(project "drum_trigger"
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2292,7 +2319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2774b14a-0191-4886-b6dd-e37d9359efef")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 74.93 52.07 0)
 			(effects
 				(font
@@ -2342,7 +2369,7 @@
 		(instances
 			(project ""
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2359,7 +2386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bd4efc1-a6c8-4971-9a23-e7de8927afd5")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 38.1 78.74 0)
 			(effects
 				(font
@@ -2409,7 +2436,7 @@
 		(instances
 			(project "drum_trigger"
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2425,7 +2452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4034045d-e5bd-43d9-b79e-f33d46e0c88a")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 92.71 39.37 0)
 			(effects
 				(font
@@ -2475,7 +2502,7 @@
 		(instances
 			(project ""
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2491,7 +2518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57cf1676-2289-479b-a59f-5f2cd3372b10")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 92.71 62.23 0)
 			(effects
 				(font
@@ -2541,7 +2568,7 @@
 		(instances
 			(project "drum_trigger"
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2557,7 +2584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a0a157d-0d55-4050-a347-8a6fd13399e0")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 27.94 26.67 0)
 			(effects
 				(font
@@ -2607,7 +2634,7 @@
 		(instances
 			(project "drum_trigger"
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2714,6 +2741,33 @@
 				(hide yes)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 92.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 92.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 92.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "08b742e6-b1e0-4638-a9f5-a1c9c4889397")
 		)
@@ -2740,7 +2794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ed7410b-2ea2-4927-9d13-f1f6d197c45f")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 71.12 119.38 0)
 			(effects
 				(font
@@ -2790,7 +2844,7 @@
 		(instances
 			(project "drum_trigger"
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2807,7 +2861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f11067a-d7a8-4de7-b9fc-dda3d5795bb0")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 38.1 119.38 0)
 			(effects
 				(font
@@ -2857,7 +2911,7 @@
 		(instances
 			(project "drum_trigger"
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2873,7 +2927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86bb3879-1296-4321-93c9-69921852d577")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 27.94 67.31 0)
 			(effects
 				(font
@@ -2923,7 +2977,7 @@
 		(instances
 			(project "drum_trigger"
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2939,7 +2993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "985cc9c6-2c2b-41a3-aea5-1bd5d20e3b8b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 74.93 39.37 0)
 			(effects
 				(font
@@ -2989,7 +3043,7 @@
 		(instances
 			(project ""
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3050,6 +3104,33 @@
 				(hide yes)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 31.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 31.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 31.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "5ef902b5-7c63-49d3-8dd3-10e17ce3eaca")
 		)
@@ -3098,7 +3179,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "996e257a-cc26-4072-806c-fb94352a4c0f")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 148.59 24.13 0)
 			(effects
 				(font
@@ -3148,7 +3229,7 @@
 		(instances
 			(project "drum_trigger"
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3164,7 +3245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a27fe005-356a-49d9-850c-7338d5905921")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 148.59 39.37 0)
 			(effects
 				(font
@@ -3214,7 +3295,7 @@
 		(instances
 			(project "drum_trigger"
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3274,6 +3355,33 @@
 				(hide yes)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "534fe6cf-25c9-4c85-9dd8-66b5ec8d9368")
 		)
@@ -3323,7 +3431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c72c6184-333a-4bc7-a470-04e9115fddde")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 62.23 45.72 0)
 			(effects
 				(font
@@ -3374,7 +3482,7 @@
 		(instances
 			(project "drum_trigger"
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3481,6 +3589,33 @@
 				(hide yes)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 74.93 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 74.93 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 74.93 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57c72978-7b7b-4aac-ac75-21ed20091278")
 		)
@@ -3543,6 +3678,33 @@
 		)
 		(property "Description" ""
 			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 67.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 67.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 67.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
