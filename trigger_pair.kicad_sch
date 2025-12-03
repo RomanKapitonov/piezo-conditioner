@@ -461,6 +461,157 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:FerriteBead_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FerriteBead_Small"
+				(at 1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -2383,7 +2534,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 101.6) (xy 64.77 101.6)
+			(xy 50.8 101.6) (xy 54.61 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2463,6 +2614,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 101.6) (xy 64.77 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5149b08b-0708-4801-805a-8ed9c129126d")
+	)
+	(wire
+		(pts
 			(xy 104.14 46.99) (xy 92.71 46.99)
 		)
 		(stroke
@@ -2530,6 +2691,16 @@
 			(type default)
 		)
 		(uuid "6303d79d-8003-42ec-8604-e9a5dcf56ba3")
+	)
+	(wire
+		(pts
+			(xy 83.82 184.15) (xy 87.63 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "630c2b92-2637-42e4-8a9d-f58e3e741953")
 	)
 	(wire
 		(pts
@@ -2993,7 +3164,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 184.15) (xy 87.63 184.15)
+			(xy 76.2 184.15) (xy 78.74 184.15)
 		)
 		(stroke
 			(width 0)
@@ -3827,7 +3998,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C23231"
+		(property "LCSC" "C23231"
 			(at 106.68 88.9 90)
 			(effects
 				(font
@@ -3935,7 +4106,7 @@
 				)
 			)
 		)
-		(property "Value" "BAV99"
+		(property "Value" "BAV99,215"
 			(at 193.04 163.83 0)
 			(effects
 				(font
@@ -3952,7 +4123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+		(property "Datasheet" "~"
 			(at 193.04 167.64 0)
 			(effects
 				(font
@@ -3970,7 +4141,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C2500"
+		(property "LCSC" "C2500"
 			(at 193.04 167.64 0)
 			(effects
 				(font
@@ -4097,7 +4268,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C11702"
+		(property "LCSC" "C11702"
 			(at 130.81 80.01 0)
 			(effects
 				(font
@@ -4204,7 +4375,7 @@
 				)
 			)
 		)
-		(property "Value" "BAV99"
+		(property "Value" "BAV99,215"
 			(at 134.874 99.822 0)
 			(effects
 				(font
@@ -4221,7 +4392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+		(property "Datasheet" "~"
 			(at 130.81 93.98 0)
 			(effects
 				(font
@@ -4239,7 +4410,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C2500"
+		(property "LCSC" "C2500"
 			(at 130.81 93.98 0)
 			(effects
 				(font
@@ -4430,7 +4601,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C15849"
+		(property "LCSC" "C15849"
 			(at 151.13 241.3 90)
 			(effects
 				(font
@@ -4551,7 +4722,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C23231"
+		(property "LCSC" "C23231"
 			(at 106.68 54.61 90)
 			(effects
 				(font
@@ -4649,7 +4820,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d1bb855-df9c-4fb0-aa07-cb2a139d18f8")
 		(property "Reference" "J10"
@@ -4687,15 +4858,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 316.23 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LTSC" ""
 			(at 316.23 69.85 0)
 			(effects
 				(font
@@ -4819,7 +4981,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C25768"
+		(property "LCSC" "C25768"
 			(at 168.91 200.66 0)
 			(effects
 				(font
@@ -4851,7 +5013,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "32184c0a-1944-4c07-bdf1-905af329359f")
 		(property "Reference" "J7"
 			(at 67.945 201.93 0)
@@ -4959,15 +5121,6 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" ""
-			(at 68.58 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "T"
 			(uuid "9ce882cd-6ec9-4afd-a0fb-339720fe7fad")
 		)
@@ -5056,7 +5209,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "324d517f-ece4-4df0-a459-524d9ea940b5")
 		(property "Reference" "J4"
@@ -5121,15 +5274,6 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 316.23 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LTSC" ""
 			(at 316.23 93.98 0)
 			(effects
 				(font
@@ -5253,7 +5397,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C25768"
+		(property "LCSC" "C25768"
 			(at 166.37 101.6 0)
 			(effects
 				(font
@@ -5375,7 +5519,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C25076"
+		(property "LCSC" "C25076"
 			(at 220.98 68.58 90)
 			(effects
 				(font
@@ -5497,7 +5641,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C25768"
+		(property "LCSC" "C25768"
 			(at 157.48 88.9 90)
 			(effects
 				(font
@@ -5751,7 +5895,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C25768"
+		(property "LCSC" "C25768"
 			(at 181.61 161.29 90)
 			(effects
 				(font
@@ -5873,7 +6017,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C1555"
+		(property "LCSC" "C1555"
 			(at 181.61 176.53 90)
 			(effects
 				(font
@@ -5904,7 +6048,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d7082db-7215-4f9c-a4da-527f1dc9c809")
 		(property "Reference" "J5"
@@ -5969,15 +6113,6 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 316.23 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LTSC" ""
 			(at 316.23 106.68 0)
 			(effects
 				(font
@@ -6098,7 +6233,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C1555"
+		(property "LCSC" "C1555"
 			(at 125.73 176.53 90)
 			(effects
 				(font
@@ -6141,7 +6276,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.22uF"
+		(property "Value" "220nF"
 			(at 215.9 76.1935 0)
 			(effects
 				(font
@@ -6222,7 +6357,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C21120"
+		(property "LCSC" "C21120"
 			(at 213.36 74.93 0)
 			(effects
 				(font
@@ -6475,7 +6610,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C22843"
+		(property "LCSC" "C22843"
 			(at 109.22 246.38 90)
 			(effects
 				(font
@@ -6518,7 +6653,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.22uF"
+		(property "Value" "220nF"
 			(at 208.28 173.9835 0)
 			(effects
 				(font
@@ -6599,7 +6734,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C21120"
+		(property "LCSC" "C21120"
 			(at 205.74 172.72 0)
 			(effects
 				(font
@@ -6766,7 +6901,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C71035"
+		(property "LCSC" "C71035"
 			(at 184.15 186.69 0)
 			(effects
 				(font
@@ -6833,7 +6968,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69cb0071-44b2-4512-9e43-8574b7b2a05d")
 		(property "Reference" "J11"
@@ -6871,15 +7006,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 316.23 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LTSC" ""
 			(at 316.23 81.28 0)
 			(effects
 				(font
@@ -7001,7 +7127,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C25768"
+		(property "LCSC" "C25768"
 			(at 157.48 93.98 90)
 			(effects
 				(font
@@ -7168,7 +7294,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C71035"
+		(property "LCSC" "C71035"
 			(at 134.62 186.69 0)
 			(effects
 				(font
@@ -7371,7 +7497,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C71035"
+		(property "LCSC" "C71035"
 			(at 111.76 104.14 0)
 			(effects
 				(font
@@ -7574,7 +7700,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C71035"
+		(property "LCSC" "C71035"
 			(at 185.42 91.44 0)
 			(effects
 				(font
@@ -7734,7 +7860,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C11702"
+		(property "LCSC" "C11702"
 			(at 147.32 101.6 0)
 			(effects
 				(font
@@ -7813,15 +7939,6 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" ""
-			(at 323.85 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "dd55d057-f59c-467f-8c3c-ad8dad9b3492")
 		)
@@ -7881,15 +7998,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 323.85 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LTSC" ""
 			(at 323.85 135.89 0)
 			(effects
 				(font
@@ -8076,7 +8184,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C25803"
+		(property "LCSC" "C25803"
 			(at 101.6 189.23 0)
 			(effects
 				(font
@@ -8155,8 +8263,73 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" ""
-			(at 323.85 151.13 0)
+		(pin "1"
+			(uuid "dd55d057-f59c-467f-8c3c-ad8dad9b3492")
+		)
+		(instances
+			(project ""
+				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627/c33731bb-ebb6-48f6-bc8e-befa4f190ea2"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 81.28 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d9f55ff-ea7b-4138-a395-87fcc7bde803")
+		(property "Reference" "FB4"
+			(at 81.2419 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead_Small"
+			(at 81.2419 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 81.28 185.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 81.28 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1017"
+			(at 81.28 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8165,12 +8338,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd55d057-f59c-467f-8c3c-ad8dad9b3492")
+			(uuid "7d144421-1edf-4db2-bece-91d1ae6d9294")
+		)
+		(pin "2"
+			(uuid "82535cd0-dee2-4552-833e-0e2d523fe610")
 		)
 		(instances
 			(project ""
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627/c33731bb-ebb6-48f6-bc8e-befa4f190ea2"
-					(reference "H3")
+					(reference "FB4")
 					(unit 1)
 				)
 			)
@@ -8320,7 +8496,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C71035"
+		(property "LCSC" "C71035"
 			(at 142.24 247.65 0)
 			(effects
 				(font
@@ -8543,7 +8719,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C1555"
+		(property "LCSC" "C1555"
 			(at 125.73 196.85 90)
 			(effects
 				(font
@@ -8730,7 +8906,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C1555"
+		(property "LCSC" "C1555"
 			(at 106.68 46.99 90)
 			(effects
 				(font
@@ -8854,7 +9030,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C25076"
+		(property "LCSC" "C25076"
 			(at 226.06 74.93 0)
 			(effects
 				(font
@@ -8975,7 +9151,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C23231"
+		(property "LCSC" "C23231"
 			(at 125.73 167.64 90)
 			(effects
 				(font
@@ -9163,7 +9339,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C1555"
+		(property "LCSC" "C1555"
 			(at 180.34 80.01 90)
 			(effects
 				(font
@@ -9352,7 +9528,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C25768"
+		(property "LCSC" "C25768"
 			(at 191.77 57.15 90)
 			(effects
 				(font
@@ -9395,7 +9571,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "KT-0805G"
 			(at 113.03 256.8574 90)
 			(effects
 				(font
@@ -9440,7 +9616,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C2297"
+		(property "LCSC" "C2297"
 			(at 109.22 254 90)
 			(effects
 				(font
@@ -9630,7 +9806,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C14858"
+		(property "LCSC" "C14858"
 			(at 64.77 106.68 0)
 			(effects
 				(font
@@ -9871,7 +10047,7 @@
 				)
 			)
 		)
-		(property "Value" "BAV99"
+		(property "Value" "BAV99,215"
 			(at 106.68 68.58 0)
 			(effects
 				(font
@@ -9888,7 +10064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+		(property "Datasheet" "~"
 			(at 106.68 72.39 0)
 			(effects
 				(font
@@ -9906,7 +10082,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C2500"
+		(property "LCSC" "C2500"
 			(at 106.68 72.39 0)
 			(effects
 				(font
@@ -10054,15 +10230,6 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" ""
-			(at 323.85 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "dd55d057-f59c-467f-8c3c-ad8dad9b3492")
 		)
@@ -10172,7 +10339,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C25744"
+		(property "LCSC" "C25744"
 			(at 125.73 212.09 90)
 			(effects
 				(font
@@ -10293,7 +10460,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C25744"
+		(property "LCSC" "C25744"
 			(at 120.65 80.01 90)
 			(effects
 				(font
@@ -10414,7 +10581,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C25768"
+		(property "LCSC" "C25768"
 			(at 161.29 176.53 90)
 			(effects
 				(font
@@ -10536,7 +10703,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C15849"
+		(property "LCSC" "C15849"
 			(at 151.13 261.62 90)
 			(effects
 				(font
@@ -10726,7 +10893,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C11702"
+		(property "LCSC" "C11702"
 			(at 153.67 172.72 0)
 			(effects
 				(font
@@ -10768,7 +10935,7 @@
 				)
 			)
 		)
-		(property "Value" "0.22uF"
+		(property "Value" "220nF"
 			(at 72.3963 97.79 90)
 			(effects
 				(font
@@ -10848,7 +11015,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C21120"
+		(property "LCSC" "C21120"
 			(at 72.39 101.6 90)
 			(effects
 				(font
@@ -10972,7 +11139,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C14858"
+		(property "LCSC" "C14858"
 			(at 87.63 189.23 0)
 			(effects
 				(font
@@ -11159,7 +11326,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C25744"
+		(property "LCSC" "C25744"
 			(at 125.73 160.02 90)
 			(effects
 				(font
@@ -11202,7 +11369,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BAV99"
+		(property "Value" "BAV99,215"
 			(at 156.21 187.9599 90)
 			(effects
 				(font
@@ -11220,7 +11387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+		(property "Datasheet" "~"
 			(at 153.67 186.69 0)
 			(effects
 				(font
@@ -11238,7 +11405,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C2500"
+		(property "LCSC" "C2500"
 			(at 153.67 186.69 90)
 			(effects
 				(font
@@ -11326,6 +11493,83 @@
 			(project "drum_trigger"
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627/c33731bb-ebb6-48f6-bc8e-befa4f190ea2"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 57.15 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db2b5073-705c-4523-b160-600b9a6fc71f")
+		(property "Reference" "FB3"
+			(at 57.1119 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead_Small"
+			(at 57.1119 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 57.15 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 57.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1017"
+			(at 57.15 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d144421-1edf-4db2-bece-91d1ae6d9294")
+		)
+		(pin "2"
+			(uuid "82535cd0-dee2-4552-833e-0e2d523fe610")
+		)
+		(instances
+			(project ""
+				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627/c33731bb-ebb6-48f6-bc8e-befa4f190ea2"
+					(reference "FB3")
 					(unit 1)
 				)
 			)
@@ -11429,7 +11673,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C25768"
+		(property "LCSC" "C25768"
 			(at 161.29 196.85 90)
 			(effects
 				(font
@@ -11553,7 +11797,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C11702"
+		(property "LCSC" "C11702"
 			(at 153.67 200.66 0)
 			(effects
 				(font
@@ -11675,7 +11919,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C1555"
+		(property "LCSC" "C1555"
 			(at 106.68 93.98 90)
 			(effects
 				(font
@@ -11717,7 +11961,7 @@
 				)
 			)
 		)
-		(property "Value" "BAV99"
+		(property "Value" "BAV99,215"
 			(at 195.58 64.77 0)
 			(effects
 				(font
@@ -11734,7 +11978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+		(property "Datasheet" "~"
 			(at 195.58 68.58 0)
 			(effects
 				(font
@@ -11752,7 +11996,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C2500"
+		(property "LCSC" "C2500"
 			(at 195.58 68.58 0)
 			(effects
 				(font
@@ -11798,7 +12042,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1000pF"
+		(property "Value" "1nF"
 			(at 237.49 76.1935 0)
 			(effects
 				(font
@@ -11879,7 +12123,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C1588"
+		(property "LCSC" "C1588"
 			(at 234.95 74.93 0)
 			(effects
 				(font
@@ -11922,7 +12166,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BAV99"
+		(property "Value" "BAV99,215"
 			(at 109.22 168.9099 90)
 			(effects
 				(font
@@ -11940,7 +12184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+		(property "Datasheet" "~"
 			(at 111.76 167.64 0)
 			(effects
 				(font
@@ -11958,7 +12202,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C2500"
+		(property "LCSC" "C2500"
 			(at 111.76 167.64 90)
 			(effects
 				(font
@@ -12148,7 +12392,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C23231"
+		(property "LCSC" "C23231"
 			(at 125.73 204.47 90)
 			(effects
 				(font
@@ -12269,7 +12513,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C25744"
+		(property "LCSC" "C25744"
 			(at 106.68 62.23 90)
 			(effects
 				(font
@@ -12393,7 +12637,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C25803"
+		(property "LCSC" "C25803"
 			(at 78.74 106.68 0)
 			(effects
 				(font
@@ -12435,7 +12679,7 @@
 				)
 			)
 		)
-		(property "Value" "0.22uF"
+		(property "Value" "220nF"
 			(at 95.2563 180.34 90)
 			(effects
 				(font
@@ -12515,7 +12759,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C21120"
+		(property "LCSC" "C21120"
 			(at 95.25 184.15 90)
 			(effects
 				(font
@@ -12637,7 +12881,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C25803"
+		(property "LCSC" "C25803"
 			(at 83.82 101.6 90)
 			(effects
 				(font
@@ -12669,7 +12913,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "f7d9a065-291f-4eee-b8c2-4984e4784533")
 		(property "Reference" "J6"
 			(at 45.085 123.19 0)
@@ -12769,15 +13013,6 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 45.72 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LTSC" ""
 			(at 45.72 114.3 0)
 			(effects
 				(font
@@ -12899,7 +13134,7 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" "C25803"
+		(property "LCSC" "C25803"
 			(at 106.68 184.15 90)
 			(effects
 				(font

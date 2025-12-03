@@ -2227,15 +2227,6 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" ""
-			(at 74.93 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6c9fbd94-f3cc-4d30-b192-77df171d05ce")
 		)
@@ -2777,15 +2768,6 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" ""
-			(at 92.71 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "08b742e6-b1e0-4638-a9f5-a1c9c4889397")
 		)
@@ -3149,15 +3131,6 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" ""
-			(at 31.75 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "6"
 			(uuid "5ef902b5-7c63-49d3-8dd3-10e17ce3eaca")
 		)
@@ -3409,15 +3382,6 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" ""
-			(at 34.29 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "6"
 			(uuid "534fe6cf-25c9-4c85-9dd8-66b5ec8d9368")
 		)
@@ -3652,15 +3616,6 @@
 				(hide yes)
 			)
 		)
-		(property "LTSC" ""
-			(at 74.93 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "57c72978-7b7b-4aac-ac75-21ed20091278")
 		)
@@ -3749,15 +3704,6 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 67.31 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LTSC" ""
 			(at 67.31 97.79 0)
 			(effects
 				(font

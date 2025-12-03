@@ -665,8 +665,8 @@
         },
         {
           "group_by": false,
-          "label": "LTSC",
-          "name": "LTSC",
+          "label": "LCSC",
+          "name": "LCSC",
           "show": true
         }
       ],

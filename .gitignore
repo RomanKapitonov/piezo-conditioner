@@ -76,7 +76,7 @@ Thumbs.db
 # Backup directory
 backup/
 backups/
-drum-trigger-backups/
+drum_trigger-backups/
 
 # KiCad auto-save recovery files
 \#auto_saved_files\#
