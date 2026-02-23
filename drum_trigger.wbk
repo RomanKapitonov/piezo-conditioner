@@ -1,10 +1,10 @@
 {
-  "last_sch_text_sim_command": ".tran 1u 30m",
+  "last_sch_text_sim_command": ".tran 1u 60m\n.control\nset controlswait\nrun\nrusage\nplot v(/triggerpair/trig_a_in) v(/triggerpair/trig_a_out)\n.endc",
   "tabs": [
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 1u 30m",
+        ".tran 1u 60m\n.control\nset controlswait\nrun\nrusage\nplot v(/triggerpair/trig_a_in) v(/triggerpair/trig_a_out)\n.endc",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -21,13 +21,20 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(228, 26, 28)",
-          "signal": "V(/TriggerPair/TRIG_A_IN)",
-          "trace_type": 1
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(/TriggerPair/TRIG_A_OUT)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/TriggerPair/TRIG_A_IN)/10",
+          "trace_type": 257
         }
       ]
     }
   ],
-  "user_defined_signals": [],
+  "user_defined_signals": [
+    "V(/TriggerPair/TRIG_A_IN)/10"
+  ],
   "version": 6
 }

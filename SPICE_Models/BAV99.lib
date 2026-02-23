@@ -1,0 +1,45 @@
+***********************************************************
+* BAV99 (3-pin package model, SOT-23 pin mapping)
+*
+* Pin mapping (matches package):
+*   1 = Anode of D1
+*   2 = Cathode of D2
+*   3 = Cathode of D1 / Anode of D2 (middle junction)
+*
+* This wraps the vendor's 2-terminal diode macro twice:
+*   D1 section is between pins 1 and 3
+*   D2 section is between pins 3 and 2
+***********************************************************
+
+.SUBCKT BAV99_3PIN 1 2 3
+
+* ----- Diode section D1: Pin1 (A) -> Pin3 (K) -----
+R1A 1 3 5E+009
+D1A 1 3 DIODE1
+D2A 1 3 DIODE2
+
+* ----- Diode section D2: Pin3 (A) -> Pin2 (K) -----
+R1B 3 2 5E+009
+D1B 3 2 DIODE1
+D2B 3 2 DIODE2
+
+.MODEL DIODE1 D
++ IS = 3.2E-009
++ N = 1.85
++ BV = 128
++ IBV = 5E-005
++ RS = 1.6
++ CJO = 6E-013
++ VJ = 0.0001
++ M = 0.02
++ FC = 0.5
++ TT = 0
++ EG = 1.1
++ XTI = 3
+
+.MODEL DIODE2 D
++ IS = 3E-013
++ N = 1.1
++ RS = 280
+
+.ENDS BAV99_3PIN

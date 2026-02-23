@@ -1,0 +1,12 @@
+.SUBCKT FILESRC_1PIN out infile="captures/latest_capture.txt"
+AFS %vd([out 0]) FSRC
+.model FSRC filesource (
++ file=infile
++ amploffset=[0]
++ amplscale=[1]
++ timeoffset=0
++ timescale=1
++ timerelative=false
++ amplstep=false
++ )
+.ENDS FILESRC_1PIN

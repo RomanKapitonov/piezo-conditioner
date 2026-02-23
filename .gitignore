@@ -90,3 +90,5 @@ drum_trigger-backups/
 # Lock files
 *.lck
 *.LCK
+
+.venv/

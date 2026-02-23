@@ -590,249 +590,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DIODE_SET_1SS362FV:1SS362FV_L3F"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 2.032 4.064 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "1SS362FV_L3F"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "mod:DIODE_1SS362FV"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "1SS362FV_L3F"
-				(at -1.016 0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at -20.32 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "1SS362FV,L3F"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT-723 VESM_TOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1SS362FV_L3F_1_1"
-				(rectangle
-					(start -6.35 2.54)
-					(end 6.35 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 0) (xy -6.35 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -3.81 1.27) (xy -3.81 -1.27) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 6.35 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 1.27 1.27) (xy 1.27 -1.27) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1083,6 +840,217 @@
 					(at 0 -2.54 90)
 					(length 0.762)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:BAV99"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAV99"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAV99_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAV99_1_1"
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1493,16 +1461,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 46.99) (xy 142.24 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f21db48-a2e9-4e63-9a3c-a5f5c638799b")
-	)
-	(wire
-		(pts
 			(xy 180.34 50.8) (xy 180.34 54.61)
 		)
 		(stroke
@@ -1623,6 +1581,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 29.21) (xy 110.49 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81da3e0f-c178-4e44-adcd-a31b2c3ec167")
+	)
+	(wire
+		(pts
 			(xy 180.34 54.61) (xy 180.34 59.69)
 		)
 		(stroke
@@ -1630,6 +1598,16 @@
 			(type default)
 		)
 		(uuid "91a182d0-c1f4-40df-97ea-da991224f6dd")
+	)
+	(wire
+		(pts
+			(xy 142.24 48.26) (xy 142.24 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f94b6eb-a51d-4832-8015-e3bb1a4870f8")
 	)
 	(wire
 		(pts
@@ -1783,13 +1761,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 91.44) (xy 142.24 99.06)
+			(xy 142.24 92.71) (xy 142.24 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e698ceb9-4b9b-48f6-893b-7d0e447e57ad")
+		(uuid "e60805a6-0750-4222-a008-adcc3046d2ef")
 	)
 	(wire
 		(pts
@@ -1854,6 +1832,17 @@
 	)
 	(hierarchical_label "+3V3IN"
 		(shape input)
+		(at 180.34 92.71 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e8abdd3-9646-456c-90b5-28b149c219cc")
+	)
+	(hierarchical_label "+3V3IN"
+		(shape input)
 		(at 148.59 135.89 90)
 		(effects
 			(font
@@ -1862,6 +1851,17 @@
 			(justify left)
 		)
 		(uuid "4c0886be-e561-4901-a258-c0bca4c195b4")
+	)
+	(hierarchical_label "+3V3IN"
+		(shape input)
+		(at 120.65 92.71 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "602fbcd3-5866-4c7f-a8b1-086be384b036")
 	)
 	(hierarchical_label "TRIG_A_EN"
 		(shape output)
@@ -1873,6 +1873,50 @@
 			(justify left)
 		)
 		(uuid "71ca5eea-1bce-4e47-b4c4-0d19cba3b6f9")
+	)
+	(hierarchical_label "+3V3IN"
+		(shape input)
+		(at 153.67 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a73f5470-9d96-4f86-9dda-4dc3605131df")
+	)
+	(hierarchical_label "+3V3IN"
+		(shape input)
+		(at 180.34 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3dcb833-dfa5-4288-abfb-75d68f7f342a")
+	)
+	(hierarchical_label "+3V3IN"
+		(shape input)
+		(at 110.49 29.21 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba7e740a-81e7-4d42-b552-12b3fbac476b")
+	)
+	(hierarchical_label "+3V3IN"
+		(shape input)
+		(at 152.4 86.36 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb46cbd0-46de-422e-8375-8cc03ebd524b")
 	)
 	(hierarchical_label "TRIG_B_IN"
 		(shape input)
@@ -2647,72 +2691,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 120.65 92.71 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a74c486-d21a-4c98-a8be-c2c42d2527b5")
-		(property "Reference" "#PWR043"
-			(at 120.65 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 120.65 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 120.65 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03553af1-5f58-4356-bab0-b36df28e0364")
-		)
-		(instances
-			(project "drum_trigger"
-				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627/7d7842c4-e5e3-46ac-bf06-c89ddb20aca8"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74HC14")
 		(at 163.83 99.06 0)
 		(unit 2)
@@ -2907,54 +2885,32 @@
 		)
 	)
 	(symbol
-		(lib_id "DIODE_SET_1SS362FV:1SS362FV_L3F")
+		(lib_id "Diode:BAV99")
 		(at 142.24 43.18 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a4ac86f-6cfd-4528-8899-eb684953d6dd")
-		(property "Reference" "U2"
-			(at 142.24 35.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "1SS362FV_L3F"
-			(at 142.24 38.1 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "mod:DIODE_1SS362FV"
-			(at 142.24 43.18 0)
+		(uuid "74a53ed8-36ae-430d-b187-007fcf5711fe")
+		(property "Reference" "D8"
+			(at 146.304 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "1SS362FV_L3F"
-			(at 141.224 43.434 0)
+		(property "Value" "BAV99,215"
+			(at 146.304 49.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 121.92 21.59 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 142.24 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,7 +2918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "SPICE_Models\\1SS362FV.lib"
+		(property "Datasheet" "~"
 			(at 142.24 43.18 0)
 			(effects
 				(font
@@ -2971,7 +2927,34 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "1SS362FV"
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 142.24 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2500"
+			(at 142.24 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "SPICE_Models\\BAV99.lib"
+			(at 142.24 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "BAV99_3PIN"
 			(at 142.24 43.18 0)
 			(effects
 				(font
@@ -2998,285 +2981,19 @@
 				(hide yes)
 			)
 		)
-		(property "Board" "Trigger Board"
-			(at 142.24 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Toshiba Semiconductor"
-			(at 142.24 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 142.24 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 142.24 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 142.24 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "1"
+			(uuid "0f7a3a5f-78b8-47e0-a184-4e382f1b8e6e")
 		)
 		(pin "3"
-			(uuid "e9ea3fbd-056b-401e-97fb-9138d291a1a6")
+			(uuid "e81f8aaa-11f6-44a8-8c54-ff2225ddf2fd")
 		)
 		(pin "2"
-			(uuid "4ff88e32-81aa-42e3-bd27-67b493bdaaa4")
-		)
-		(pin "1"
-			(uuid "ed6cb519-196d-4608-a4f7-04ac3eeeaefe")
+			(uuid "97a08bf4-96b3-4383-a7e8-46a854133d5b")
 		)
 		(instances
 			(project "drum_trigger"
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627/7d7842c4-e5e3-46ac-bf06-c89ddb20aca8"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 180.34 45.72 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88797288-fea7-4b91-8175-687ba101ad3e")
-		(property "Reference" "#PWR037"
-			(at 180.34 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 180.34 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 180.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c55d84c1-b154-4c33-806b-7cb6616a0744")
-		)
-		(instances
-			(project "drum_trigger"
-				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627/7d7842c4-e5e3-46ac-bf06-c89ddb20aca8"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DIODE_SET_1SS362FV:1SS362FV_L3F")
-		(at 142.24 87.63 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93b50668-c179-4373-9f9f-3d1bb1309601")
-		(property "Reference" "U4"
-			(at 142.24 80.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "1SS362FV_L3F"
-			(at 142.24 82.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "mod:DIODE_1SS362FV"
-			(at 142.24 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "1SS362FV_L3F"
-			(at 141.224 87.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "SPICE_Models\\1SS362FV.lib"
-			(at 142.24 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "1SS362FV"
-			(at 142.24 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 142.24 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=1 2=2 3=3"
-			(at 142.24 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Board" "Trigger Board"
-			(at 142.24 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Toshiba Semiconductor"
-			(at 142.24 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 142.24 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 142.24 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 142.24 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "05dc6b63-96ab-43e2-a828-a9875fb4705c")
-		)
-		(pin "2"
-			(uuid "5384a59f-a503-4d3d-8fac-4ea5c4da6e30")
-		)
-		(pin "1"
-			(uuid "e2f00850-5a3c-48c2-a1e9-9a36d0468a25")
-		)
-		(instances
-			(project "drum_trigger"
-				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627/7d7842c4-e5e3-46ac-bf06-c89ddb20aca8"
-					(reference "U4")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -3639,17 +3356,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 152.4 86.36 0)
+		(lib_id "Diode:BAV99")
+		(at 142.24 87.63 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf6f8bf0-7335-4a07-b38d-6612baaca211")
-		(property "Reference" "#PWR041"
-			(at 152.4 90.17 0)
+		(uuid "bd279c9c-6243-4514-bcec-1557618c7997")
+		(property "Reference" "D9"
+			(at 146.304 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV99,215"
+			(at 146.304 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 142.24 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3657,16 +3389,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 152.4 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 86.36 0)
+		(property "Datasheet" "~"
+			(at 142.24 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3674,8 +3398,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 152.4 86.36 0)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 142.24 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,8 +3407,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 152.4 86.36 0)
+		(property "LCSC" "C2500"
+			(at 142.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "SPICE_Models\\BAV99.lib"
+			(at 142.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "BAV99_3PIN"
+			(at 142.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 142.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3"
+			(at 142.24 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,12 +3453,84 @@
 			)
 		)
 		(pin "1"
-			(uuid "302562f9-d588-4e8e-831e-9b7ecf49c86a")
+			(uuid "bd0958db-c417-4399-8fe9-e64f10f65797")
+		)
+		(pin "3"
+			(uuid "0e70c9d0-fd57-451c-9f34-fae6158e41f2")
+		)
+		(pin "2"
+			(uuid "fa54cb86-83f9-4fe9-a7ee-245767e93db1")
 		)
 		(instances
 			(project "drum_trigger"
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627/7d7842c4-e5e3-46ac-bf06-c89ddb20aca8"
-					(reference "#PWR041")
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 110.49 25.4 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c141b6a8-1ad2-4650-8f0a-cf978fe96f1d")
+		(property "Reference" "#PWR049"
+			(at 110.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 110.49 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 110.49 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edf2387f-ff18-4eff-972d-8890dbd7bb00")
+		)
+		(instances
+			(project "drum_trigger"
+				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627/7d7842c4-e5e3-46ac-bf06-c89ddb20aca8"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3895,72 +3727,6 @@
 			(project "drum_trigger"
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627/7d7842c4-e5e3-46ac-bf06-c89ddb20aca8"
 					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 180.34 92.71 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6dea885-0879-4afd-ad90-c71eb404b6f0")
-		(property "Reference" "#PWR044"
-			(at 180.34 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 180.34 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 180.34 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31c4a3d6-38d4-40e4-b13a-b437d9356730")
-		)
-		(instances
-			(project "drum_trigger"
-				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627/7d7842c4-e5e3-46ac-bf06-c89ddb20aca8"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4529,72 +4295,6 @@
 			(project "drum_trigger"
 				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627/7d7842c4-e5e3-46ac-bf06-c89ddb20aca8"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 153.67 41.91 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f930a240-1e6e-4ffd-9b81-513c784ff8ac")
-		(property "Reference" "#PWR035"
-			(at 153.67 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 153.67 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 153.67 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2cdd9628-7a2f-42df-936c-e7f7f279b868")
-		)
-		(instances
-			(project "drum_trigger"
-				(path "/5aab9db2-4b7f-4c4d-b6d6-4c2a1995e627/7d7842c4-e5e3-46ac-bf06-c89ddb20aca8"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
