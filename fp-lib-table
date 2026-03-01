@@ -3,4 +3,5 @@
   (lib (name "mod")(type "KiCad")(uri "${KIPRJMOD}/parts/mod.pretty")(options "")(descr ""))
   (lib (name "R_0402_custom")(type "KiCad")(uri "${KIPRJMOD}/parts/R_0402_custom.pretty")(options "")(descr ""))
   (lib (name "C_0402_custom")(type "KiCad")(uri "${KIPRJMOD}/parts/C_0402_custom.pretty")(options "")(descr ""))
+  (lib (name "TriggerBoard")(type "KiCad")(uri "${KIPRJMOD}/parts/TriggerBoard.pretty")(options "")(descr ""))
 )

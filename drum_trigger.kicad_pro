@@ -113,13 +113,13 @@
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
-        "track_dangling": "ignore",
+        "track_dangling": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "ignore",
+        "via_dangling": "error",
         "zones_intersect": "error"
       },
       "rules": {
@@ -737,6 +737,18 @@
     [
       "7d7842c4-e5e3-46ac-bf06-c89ddb20aca8",
       "TrigEn"
+    ],
+    [
+      "b6ebe9ad-791e-4135-b173-08705f68af27",
+      "TriggerPair1"
+    ],
+    [
+      "0c74d288-7dca-465e-be49-bdcefaac258e",
+      "TriggerPair2"
+    ],
+    [
+      "6730520e-c02e-453e-b75f-711ddf055df7",
+      "TriggerPair3"
     ]
   ],
   "text_variables": {}
