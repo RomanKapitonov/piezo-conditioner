@@ -1,4 +1,4 @@
-25721011216421396
+25722783499500241
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102241,6 +102241,13 @@ igbt diode module
 0
 25
 25
+TriggerBoard
+Jack_6.35mm_Neutrik_NMJ4HFD2_Horizontal
+M Series, 6.35mm (1/4in) mono jack, switched, with full threaded nose and straight PCB pins, https://www.neutrik.com/en/product/nmj4hfd2
+neutrik jack m
+0
+4
+4
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins

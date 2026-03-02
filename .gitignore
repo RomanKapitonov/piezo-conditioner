@@ -92,3 +92,4 @@ drum_trigger-backups/
 *.LCK
 
 .venv/
+instrumentation/PLAN.md

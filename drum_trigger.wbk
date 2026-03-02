@@ -1,10 +1,10 @@
 {
-  "last_sch_text_sim_command": ".tran 1u 60m\r\n.tran 1u 60m\r\n.tran 1u 60m\r\n.tran 1u 60m",
+  "last_sch_text_sim_command": ".tran 1u 60m",
   "tabs": [
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 1u 60m\r\n.tran 1u 60m\r\n.tran 1u 60m\r\n.tran 1u 60m",
+        ".tran 1u 60m",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -19,7 +19,13 @@
       },
       "measurements": [],
       "showGrid": true,
-      "traces": []
+      "traces": [
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(TRIG_T1)",
+          "trace_type": 257
+        }
+      ]
     }
   ],
   "user_defined_signals": [],
